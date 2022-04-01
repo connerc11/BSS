@@ -49,6 +49,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: #aaa9ad;
+  text-shadow: 0 0 15px#77df32;
 }
 
 h3 {
@@ -208,6 +210,29 @@ input:focus {
 
 .error-text {
   color: var(--error);
+}
+
+#linkage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow:  0 .25rem rgba(0, 0, 0, .5);
+  
+}
+.footer--pin {
+  position: absolute;
+  
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  
 }
 
 @media screen and (max-width: 768px) {
